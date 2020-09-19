@@ -26,6 +26,7 @@ class Builder {
     addCheckstyleJson(Sys.getCwd());
     addHaxeFormatJson(Sys.getCwd());
     addCompileHxml(Sys.getCwd());
+    addReadMe(Sys.getCwd());
     _log.info('Static project files successfully created');
   }
 
